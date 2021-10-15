@@ -2,7 +2,6 @@
 require __DIR__."/vendor/autoload.php";
 
 $target = "agung";
-$array  = array(1);
 
 $nezuko = new Nezuko\GenerateKata();
 
@@ -18,12 +17,14 @@ while($kataDitemukan != true)
     $jumlahKata++;
     $tambahMatrik = false;
     
-    $kata = $nezuko -> lihatKata($array);
+    $kata = $nezuko -> lihatKata();
     if($kata == $target)
     {
         $kataDitemukan = true;
         $akhirTimer    = microtime(true);
     }
+    
+    $nezuko -> tambahItemAkhir();
     
     if(($jumlahKata % 10000) == 0 )
     {
@@ -35,29 +36,8 @@ while($kataDitemukan != true)
             echo "     • • • \r";
         }
     }
-    
-    $itemTerakhir = count($array)-1;
-    $array[$itemTerakhir]++;
-    
-    $panjangList = $nezuko -> jumlahList();
-    for($i = count($array) - 1; $i > -1; $i-- )
-    {
-        if($array[$i] > $panjangList)
-        {
-            if(array_key_exists($i - 1, $array))
-            {
-                $array[$i - 1]++;
-                $array[$i] = 1;
-            } else {
-                $tambahMatrik = true;
-            }
-        }
-    }
-    if($tambahMatrik == true)
-    {
-        $array= $nezuko -> tambahResetItem($array);
-    }
 }
+
 echo "     •\r";     usleep(500000);
 echo "       •\r";   usleep(500000);
 echo "         •\r"; usleep(200000);
