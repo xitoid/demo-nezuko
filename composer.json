@@ -1,0 +1,20 @@
+{
+    "name": "xitoid/demo-nezuko",
+    "description": "Ini adalah file-file demo untuk library xitoid/nezuko",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xitoid\\DemoNezuko\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xitoid",
+            "email": "agungsetiawan.afund@gmail.com"
+        }
+    ],
+    "require": {
+        "xitoid/nezuko": "^1.0.0-beta"
+    }
+}

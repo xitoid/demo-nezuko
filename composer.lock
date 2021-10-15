@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "19d2b53dd03b613b49e89188bd3fda15",
+    "packages": [
+        {
+            "name": "xitoid/nezuko",
+            "version": "v1.0.0-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xitoid/nezuko.git",
+                "reference": "a93dfdecc46af715bf131a0909d6b5699842a1a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xitoid/nezuko/zipball/a93dfdecc46af715bf131a0909d6b5699842a1a7",
+                "reference": "a93dfdecc46af715bf131a0909d6b5699842a1a7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nezuko\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xitoid",
+                    "email": "agungsetiawan.afund@gmail.com"
+                }
+            ],
+            "description": "Nezuko adalah library untuk menggenerate kata otomatis",
+            "support": {
+                "issues": "https://github.com/xitoid/nezuko/issues",
+                "source": "https://github.com/xitoid/nezuko/tree/v1.0.0-beta"
+            },
+            "time": "2021-10-15T03:52:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "xitoid/nezuko": 10
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
