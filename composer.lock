@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "xitoid/nezuko",
-            "version": "v1.0.0-beta",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/xitoid/nezuko.git",
-                "reference": "a93dfdecc46af715bf131a0909d6b5699842a1a7"
+                "reference": "3f87e2bf7cbe5966f05dd6759cb2f73cf95d8187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xitoid/nezuko/zipball/a93dfdecc46af715bf131a0909d6b5699842a1a7",
-                "reference": "a93dfdecc46af715bf131a0909d6b5699842a1a7",
+                "url": "https://api.github.com/repos/xitoid/nezuko/zipball/3f87e2bf7cbe5966f05dd6759cb2f73cf95d8187",
+                "reference": "3f87e2bf7cbe5966f05dd6759cb2f73cf95d8187",
                 "shasum": ""
             },
             "type": "library",
@@ -39,9 +39,9 @@
             "description": "Nezuko adalah library untuk menggenerate kata otomatis",
             "support": {
                 "issues": "https://github.com/xitoid/nezuko/issues",
-                "source": "https://github.com/xitoid/nezuko/tree/v1.0.0-beta"
+                "source": "https://github.com/xitoid/nezuko/tree/v1.0.0"
             },
-            "time": "2021-10-15T03:52:40+00:00"
+            "time": "2021-10-15T10:56:39+00:00"
         }
     ],
     "packages-dev": [],
